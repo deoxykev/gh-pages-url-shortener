@@ -8,17 +8,21 @@ This is a minimal URL shortener that can be entirely hosted on GitHub pages. It
 does not need the maintenance of any servers or databases and can be hosted
 entirely on GitHub for free!
 
-[Yay! We got to the top of HN!](https://news.ycombinator.com/item?id=25110879)
+This fork uses IDN normalization to create the world's shortest URL shortener at 5 characters:
 
-<img src="https://i.imgur.com/ZfD7XGt.png" alt="Top of HN" width="240px">
+```
+㎠.ﬁ/1
+```
+will normalize to 
+```
+cm2.fi/1
+```
 
-And on GitHub trending!
 
-<img src="https://i.imgur.com/OkYCSOx.png" alt="GitHub Trending" width="240px">
 
 ## 👨‍🏫 Demo
 
-1. [nlsn.cf/1](https://nlsn.cf/1) should link to this repo.
+1. [cm2.fi/1](https://cm2.fi/1) should link to this repo.
 
 1. To add a new short link, add an issue with the title being the link you want
    to shorten (including the `http(s)://`) to
